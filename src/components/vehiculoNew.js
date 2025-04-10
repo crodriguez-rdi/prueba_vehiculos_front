@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 
 const VehiculoNew = ({ addVehiculo }) => {
+    
     const [vehiculo, setVehiculo] = useState({
         marca: '',
         modelo: '',
